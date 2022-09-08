@@ -15,6 +15,7 @@ func fibWrapper(n int)[]int{
 	}
 	return retArr
 }
+//Recussion
 func fibonnacci(n int)int{
 	if n<2{
 		return n
@@ -39,7 +40,7 @@ func fibo(n int)[]int{
 	}
 	return retArr
 }
-//with a better space complexity
+//Dynamic programing with a better space complexity
 func fibSpace(n int)[]int{
 	retArr:=[]int{}
 	var a,b,result int
